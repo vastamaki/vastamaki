@@ -1,0 +1,14 @@
+{
+  "name": "vastamaki",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "stats": "bun scripts/stats.ts",
+    "tiles": "bun scripts/bento.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.5",
+    "typescript": "^7.0.2"
+  }
+}
